@@ -1,0 +1,310 @@
+.home.container {
+
+    font-family: "segoe UI", sans-serif;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+
+}
+
+.hero-section {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f9fbfb;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+.hero-banner {
+    background-image: url("../assets/solo-travel-test.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(158, 15, 15);
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.hero-section h1 {
+
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* little annimation added to the call to action button */
+.cta-button {
+    background-color: #d32f2f;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #b71c1c;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature-section {
+    margin-bottom: 2rem;
+}
+
+.feature-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+
+.feature-card {
+    background-color: #fff8f6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3 ease;
+}
+
+.feature-card h3 {
+    color: #d32f2f;
+    margin-bottom: 0.5rem;
+}
+
+.get-started-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fdf5f5;
+    border-radius: 10px;
+}
+
+.get-started-section h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+/* css to make the home page resposnive */
+
+
+@media (max-width: 779px) {
+    .hero-banner {
+        padding: 50px 10px;
+    }
+
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 14px 0;
+        font-size: 1rem;
+    }
+
+    .feature-card {
+        padding: 1rem;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .get-started-section {
+        padding: 1.5rem 1rem;
+    }
+
+    .get-started-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .get-started-section p {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+
+/*   testimonial section
+ */
+
+
+
+.testiomonal section {
+    padding: 2rem 1rem;
+    background-color: #fffdfd;
+    text-align: center;
+
+
+}
+
+.testimonial-section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #d32f2f;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.testimonial-card {
+    background-color: #fff8f6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-card h4 {
+    color: #d32f2f;
+    font-weight: normal;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    color: #555;
+}
+
+
+
+
+.trust-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff8f6;
+    border-radius: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+
+.trust-bar .stats {
+    margin: 1rem;
+    flex: 1 1 150px;
+}
+
+.trust-bar h3 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+    color: #d32f2f;
+}
+
+
+.trust-bar p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* for smaller devices */
+
+@media (max-width: 500px) {
+    .hero-banner h1 {
+        font-size: 1.75rem;
+    }
+
+
+    .hero-banner p {
+        font-size: 1rem;
+    }
+
+    .trust-bar {
+        flex-direction: column;
+        padding: 1rem;
+
+    }
+
+    .trust-bar .stats {
+        margin: 0.75rem 0;
+    }
+
+    .testimonial-card {
+        grid-template-columns: 1fr;
+
+    }
+
+    .testimonial-card {
+        padding: 1rem;
+    }
+
+    .feature-section h2,
+    .get-started-section h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .feature-section p,
+    .get-started-section p {
+        font-size: 1rem;
+    }
+
+}

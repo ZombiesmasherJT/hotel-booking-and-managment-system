@@ -1,0 +1,93 @@
+.success-message {
+    background-color: #e0fbe3;
+    color: green;
+    border: 1px solid #b2e0b2;
+    padding: 0.75rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 1rem;
+    max-width: 500px;
+}
+
+
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666;
+    cursor: not-allowed;
+    border: none;
+    opacity: 0.7;
+}
+
+
+
+.room-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.room-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+
+}
+
+
+input[type="date"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+
+    background-color: #d32f2f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+button :disabled {
+
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #b71c1c;
+}
+
+
+.room-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+
+
+.bookings-container {
+    background-color: #fafafa;
+    max-width: 1200px;
+    padding: 2rem;
+    margin: 0 auto;
+
+}
+
+.bookings-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}

@@ -1,0 +1,168 @@
+.admin-panel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+tabel,
+th,
+td {
+    border: 1px solid #ccc;
+
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+
+
+
+
+.status-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status-badge.confirmed {
+    background-color: #4caf50;
+    color: white;
+}
+
+.status-badge.pending {
+    background-color: #ff9800;
+    color: white;
+}
+
+.status-badge.cancelled {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+.Create-room {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #d9534f;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Create-room label {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.Create-room input,
+.Create-room select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+
+.Create-room button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.Create-room button:hover {
+    background-color: #45a049;
+}
+
+/*   create a potential success massage later on */
+
+
+
+
+.admin-panel-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.room-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.room-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: #f5f5f5;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.room-item {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.delete-room-button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.delete-room-button:hover {
+    background-color: #d32f2f;
+}
