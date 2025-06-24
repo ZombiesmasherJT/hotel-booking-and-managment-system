@@ -2,6 +2,8 @@
 
 This project contains a full stack hotel booking system tailored for solo traverlers and hotel staff
 
+Link to video project demonstration https://youtu.be/VXE_SwAyU_4
+
 
 
 ## Folder structure
